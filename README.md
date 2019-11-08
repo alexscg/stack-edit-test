@@ -3,5 +3,5 @@ testing stack edit save/open functionality
 
 testing prose.io
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![GitHub Logo](https://cdn.mckinsey.com/assets/images/McK_ScriptMark_RGB_McKDeepBlue.png)
+Format: ![MDS docs POC](url)
