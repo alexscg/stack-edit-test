@@ -31,13 +31,13 @@ For any project:
 A key hallmark of professional code includes a notion that while we are writing code that must reach a desired goal, we are also creating code that must be read and understood by others.
 
 ####  **Code Consistency**
--   Usage of the same patterns is critical between team members so as to never cause confusion.
--   It's worth establishing conventions at the project start or enabling automatic settings in the build or editor environments that might enforce particular rules.
--     
+Usage of the same patterns is critical between team members so as to never cause confusion.
+It's worth establishing conventions at the project start or enabling automatic settings in the build or editor environments that might enforce particular rules.
+
     
 ####  **Indentation**
--   Please consistently indent, nest, include braces, quotes, and new lines so that code is clear and can be read easily. New code that is added should never deviate from existing formatting conventions or change the indent levels.
--   For all code languages, we recommend the **use soft tabs** comprised of four spaces per tab. Hitting the Tab key in your text editor should generate four space characters rather than one tab character. This results in our code appearing identical across platforms.
+Please consistently indent, nest, include braces, quotes, and new lines so that code is clear and can be read easily. New code that is added should never deviate from existing formatting conventions or change the indent levels.
+For all code languages, we recommend the **use soft tabs** comprised of four spaces per tab. Hitting the Tab key in your text editor should generate four space characters rather than one tab character. This results in our code appearing identical across platforms.
 -   If **tab stops** are favored by a team, simply **maintain consistency** for a project and it's deliverables so developers can make adjustments to their editing environments a **single** time.
 -     
     
@@ -54,9 +54,9 @@ A key hallmark of professional code includes a notion that while we are writing 
 
 # HTML Markup Best Practices
 
--   Semantic Markup
--   HTML provides a number of semantic constructs that allow automated tools like search engines and screen readers to make sense of the document and to understand relationships between pieces of content. Use semantic markup whenever possible — that is to say use elements with specific meanings for specific purposes to convey the spirit of the markup.
--   A well-written HTML document will make appropriate use of these semantic elements and leave all responsibility for controlling the presentation of the document to the CSS style sheet.
+#### Semantic Markup
+HTML provides a number of semantic constructs that allow automated tools like search engines and screen readers to make sense of the document and to understand relationships between pieces of content. Use semantic markup whenever possible — that is to say use elements with specific meanings for specific purposes to convey the spirit of the markup.
+A well-written HTML document will make appropriate use of these semantic elements and leave all responsibility for controlling the presentation of the document to the CSS style sheet.
 
 ####  **HTML Standards and Browser Support**
 All markup will be written using the latest HTML5 markup specifications from the W3C, as implemented by browsers and devices that meet project requirements. When creating markup be sure that the target environments support the techniques being implemented, or that there is a fall-back plan.
@@ -501,6 +501,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDgyNzkxLDE3OTQ4NzEwNjAsLTgyNz
-k3MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl19
+eyJoaXN0b3J5IjpbLTM1MTA5NTEzNSwxNzk0ODcxMDYwLC04Mj
+c5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
 -->
