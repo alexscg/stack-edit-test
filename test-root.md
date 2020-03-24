@@ -174,18 +174,16 @@ To simplify CSS authoring, we set the box-sizing attribute to border-box for all
 1.  adjust the width accordingly using calc (since borders use pixels rather than percents) or
 2.  create an element inside it to take the padding and border. This is the only case where we use the inefficient universal selector (*).
 
--   ```
--   * {
--   -moz-box-sizing: border-box;
--   -webkit-box-sizing: border-box;
--   box-sizing: border-box;
--   }
--   ```
+```
+	* {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+```
 
-  
-
--   **Coding Patterns**
--   There are a number of popular design patterns for naming conventions on selectors, groupings or extensions of styles in CSS files. Sometimes these are of value and may be used on projects as long as the developers are on board and they are used consistently by the team. We recommend [BEM naming convention](http://getbem.com/) for medium to large projects.
+#### **Coding Patterns**
+There are a number of popular design patterns for naming conventions on selectors, groupings or extensions of styles in CSS files. Sometimes these are of value and may be used on projects as long as the developers are on board and they are used consistently by the team. We recommend [BEM naming convention](http://getbem.com/) for medium to large projects.
 
   
 
@@ -475,7 +473,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU5MTIzMjQsLTEwODYwNDk4MDgsMT
-c5NDg3MTA2MCwtODI3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAy
-NTE2XX0=
+eyJoaXN0b3J5IjpbLTU1NDE5NTAxNSwtMTY1NTkxMjMyNCwtMT
+A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
+ODcwMiw0MjkyMDI1MTZdfQ==
 -->
