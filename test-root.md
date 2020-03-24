@@ -229,17 +229,13 @@ Formatting the language statements and patterns should follow these basics:
 	}
 ```
 
-  
-
 -   Use single quotes for strings except to avoid escaping
--   ```
-
--   console.log('hello there') // ✓ ok
--   console.log("hello there") // ✗ avoid
--   console.log(`hello there`) // ✗ avoid
--   $("<div class='box'>")  // ✓ ok
-
--   ```
+```
+	console.log('hello there') // ✓ ok
+	console.log("hello there") // ✗ avoid
+	console.log(`hello there`) // ✗ avoid
+	$("<div class='box'>")  // ✓ ok
+```
 -   For multi-line statements, use curly braces
 -   Infix operators must be spaced
 -   Multiple blank lines should be avoided and are not allowed
@@ -247,8 +243,8 @@ Formatting the language statements and patterns should follow these basics:
 
   
 
--   **Best Practices**
--   Avoid user-agent sniffing and rely on [feature detection](https://isobar-us.github.io/code-standards/#javascript_feature-detection) instead. Browser detection is dangerous and error-prone.
+#### **Best Practices**
+Avoid user-agent sniffing and rely on [feature detection](https://isobar-us.github.io/code-standards/#javascript_feature-detection) instead. Browser detection is dangerous and error-prone.
 
 -   Avoid using document.write.
 -   Only run scripts on a page that are needed for that page.
@@ -258,12 +254,12 @@ Formatting the language statements and patterns should follow these basics:
 
   
 
--   **Variable Scope**
--   Minimize the use of global or window level variables and name-spaces. Pollution of the global name-space is error prone and a bad practice.
--   If referencing a window or global level variable that isn't obvious, please comment as such or explicitly state it.
--   ```
--   var window.thing = {};
--   ```
+#### **Variable Scope**
+Minimize the use of global or window level variables and name-spaces. Pollution of the global name-space is error prone and a bad practice.
+If referencing a window or global level variable that isn't obvious, please comment as such or explicitly state it.
+```
+var window.thing = {};
+```
 
   
 
@@ -465,7 +461,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Njg4MDkwNSwtMTY1NTkxMjMyNCwtMT
+eyJoaXN0b3J5IjpbMjAzOTQ0NjgzMywtMTY1NTkxMjMyNCwtMT
 A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
 ODcwMiw0MjkyMDI1MTZdfQ==
 -->
