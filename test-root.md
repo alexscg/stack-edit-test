@@ -261,10 +261,8 @@ If referencing a window or global level variable that isn't obvious, please comm
 var window.thing = {};
 ```
 
-  
-
--   **Variable Names and Types**
--   Always use meaningful variable names that can be read as words, not as abbreviations only you understand.
+#### **Variable Names and Types**
+Always use meaningful variable names that can be read as words, not as abbreviations only you understand.
 
 -   Variable names should be camelCase.
 -   Objects, classes, and name-spaces should be TitleCase.
@@ -272,27 +270,25 @@ var window.thing = {};
 -   Cached jQuery objects can be prefixed with $.
 -   Use shorthand versions of empty Arrays and Objects.
 
--   ```
--   // some examples
--   var exampleValue = 'my example variable value';
--   var numberOfTimes = 3;
--   // booleansvar isThisWorking = true;
--   var isNotWorking = 0;
--   // cache a selector
--   var $body = $('body');
--   // short hand objects and arrays
--   var newObject = {};
--   var newArray = [];
--   ```
+```
+	// some examples
+	var exampleValue = 'my example variable value';
+	var numberOfTimes = 3;
+	// booleansvar isThisWorking = true;
+	var isNotWorking = 0;
+	// cache a selector
+	var $body = $('body');
+	// short hand objects and arrays
+	var newObject = {};
+	var newArray = [];
+```
 
   
 
--   **Settings, Constants**
--   Put settings together in obvious places such as an Object literal space inside your module. Make settings that are possibly to be considered "constants" to be obvious -- some developers like to use ALLCAPS.
+#### **Settings, Constants**
+Put settings together in obvious places such as an Object literal space inside your module. Make settings that are possibly to be considered "constants" to be obvious -- some developers like to use ALLCAPS.
 
-  
-
--   **Feature Detection**
+#### **Feature Detection**
 -   Always test for the existence of a browser API, function, or object property before you use it, and make sure the user experience is still functional (to the extent possible) if it's not found. We rely on JavaScript-based feature detection rather than server-side device detection because it's more robust, easily maintained, and future-proof. The go-to library for feature detection is of course [Modernizr](http://modernizr.com/).
 
   
@@ -461,7 +457,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTQ0NjgzMywtMTY1NTkxMjMyNCwtMT
-A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
-ODcwMiw0MjkyMDI1MTZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTg1NzU2MTQsLTE2NTU5MTIzMjQsLT
+EwODYwNDk4MDgsMTc5NDg3MTA2MCwtODI3OTczMDY0LDE1NDkw
+Nzg3MDIsNDI5MjAyNTE2XX0=
 -->
