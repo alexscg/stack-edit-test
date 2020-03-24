@@ -91,9 +91,7 @@ Generally speaking, we encourage closing tags and trailing slashes (i.e. XHTML, 
 	</ul>
 ```
 Unusual markup can lead to bugs in page rendering, DOM interpretation, or even how styles are applied, so it should be avoided.
-
-  
-
+	
 #### **Validation**
 Valid markup is necessary not only for better operation and maintenance, it can be an excellent starting place while debugging a page — especially if the problems are unusual. There are many linters, prettyfier and validators, you can start with [W3C Validator](https://validator.w3.org/).
 
@@ -107,7 +105,6 @@ Valid markup is necessary not only for better operation and maintenance, it can 
 
 
 # CSS Best Practices
-  
 
 #### **Formatting CSS**
 Basic rules for formatting CSS files:
@@ -120,9 +117,7 @@ Basic rules for formatting CSS files:
 -   The closing brace of declaration goes in the same column as the first character of the set of rules.
 -   Use a single blank line between sets of rules.
 
-  
-
--   Inside sets of rules or style declarations:
+Inside sets of rules or style declarations:
 
 -   Add a single space between the property and value, for example:
 -   prop: value; and not prop:value;.
@@ -494,6 +489,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUzMTk5ODEsMTc5NDg3MTA2MCwtOD
+eyJoaXN0b3J5IjpbLTEwODYwNDk4MDgsMTc5NDg3MTA2MCwtOD
 I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
 -->
