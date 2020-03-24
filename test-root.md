@@ -38,17 +38,16 @@ It's worth establishing conventions at the project start or enabling automatic s
 ####  **Indentation**
 Please consistently indent, nest, include braces, quotes, and new lines so that code is clear and can be read easily. New code that is added should never deviate from existing formatting conventions or change the indent levels.
 For all code languages, we recommend the **use soft tabs** comprised of four spaces per tab. Hitting the Tab key in your text editor should generate four space characters rather than one tab character. This results in our code appearing identical across platforms.
--   If **tab stops** are favored by a team, simply **maintain consistency** for a project and it's deliverables so developers can make adjustments to their editing environments a **single** time.
--     
+If **tab stops** are favored by a team, simply **maintain consistency** for a project and it's deliverables so developers can make adjustments to their editing environments a **single** time.
     
 ####  **Readability**
--   We encourage liberal use of whitespace, comments, and descriptive variable names as appropriate for writing easy-to-read code.
+We encourage liberal use of whitespace, comments, and descriptive variable names as appropriate for writing easy-to-read code.
 
 -   There is no need to write code in an obfuscated or compressed way for the purpose of file-size savings.
 -   We will use automated server-side or other build processes to optimize files.
 -   This includes concatenating files, code minification, gzipping, and setting "Far Future Expires".
 
--   The ability for another developer to read the code is paramount above other concerns, especially if optimization can be handled another way.
+The ability for another developer to read the code is paramount above other concerns, especially if optimization can be handled another way.
 
   
 
@@ -65,23 +64,17 @@ There are three primary ways to ensure a modern and consistent experience across
 -   [Normalize](https://github.com/necolas/normalize.css) is a collection of element-specific CSS changes in a single file.
 -   [HTML5 polyfill](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) or HTML5 Shiv to enable styling and recognition of HTML5 elements in older devices' browsers.
 -   [Modernizr](https://modernizr.com/docs)  is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in your user's browsers.
-
+	
 ####  **Doctype**
 Always include a proper doctype to trigger standards mode. Omitting the doctype [triggers quirks mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) and should always be avoided. The HTML5 doctype is simple and easy to remember.
-
 ```
 	<!doctype html>
 ```
-
-  
-
 #### **Character Encoding**
 All markup should be delivered as UTF-8, since it has the best support for internationalization. The character encoding should be designated in both the HTTP header and the head of the document via a meta tag. If the server happens to omit the HTTP header, browsers can take a guess at the character encoding and begins parsing and rendering the markup in a particular way. If there are inconsistencies, the browser will re-parse and re-render, throwing away all that work and starting over if it encounters the meta tag and its guess was incorrect. As a best practice, we always put the meta tag as early in the <head> tag as early as possible — however server-settings are ideal.
 ```
 	<meta charset="UTF-8">
 ```
-
-  
 
 #### **Optional and Self-closing Tags**
 While current standards designate certain closing elements and even document level elements as optional, use all open and closing elements nested in the correct ways to ensure maximum compatibility and clarity of document structure.
@@ -501,6 +494,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTA5NTEzNSwxNzk0ODcxMDYwLC04Mj
-c5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTUzMTk5ODEsMTc5NDg3MTA2MCwtOD
+I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
 -->
