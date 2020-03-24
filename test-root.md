@@ -218,16 +218,16 @@ Formatting the language statements and patterns should follow these basics:
 -   Else/else go on the same line as the brace.
 -   Use type strict checks with === as opposed to == whenever possible.
 
--   ```
--   for (var i = 0, len = arr.length; i < len; i++) {
--   var example = 1;
--   if (example === i) {
--   // we are looping
--   } else {
--   // this will never happen
--   }
--   }
--   ```
+```
+	for (var i = 0, len = arr.length; i < len; i++) {
+		var example = 1;
+		if (example === i) {
+			// we are looping
+		} else {
+			// this will never happen
+		}
+	}
+```
 
   
 
@@ -465,7 +465,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDk0NDI1NSwtMTY1NTkxMjMyNCwtMT
+eyJoaXN0b3J5IjpbMTA0Njg4MDkwNSwtMTY1NTkxMjMyNCwtMT
 A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
 ODcwMiw0MjkyMDI1MTZdfQ==
 -->
