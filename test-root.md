@@ -343,17 +343,11 @@ The "Mobile First" techniques consider the lowest common denominator first, whic
 ```
 Note: the breakpoints specified above are **not** intended to be recommended breakpoints, but rather just illustrative of this general concept.
 
-  
+#### **Performance**
 
--   **Performance**
+People expect page load time to be as fast if not faster on their mobile phones in comparison to a desktop experience.
 
-  
-
--   People expect page load time to be as fast if not faster on their mobile phones in comparison to a desktop experience.
-
-  
-
--   Advanced CSS3 techniques are easy to implement, but when you start combining them, rendering and scrolling performance can be affected. Be careful of images, make sure you are serving a mobile optimized image.
+Advanced CSS3 techniques are easy to implement, but when you start combining them, rendering and scrolling performance can be affected. Be careful of images, make sure you are serving a mobile optimized image.
 
   
 
@@ -364,19 +358,11 @@ Note: the breakpoints specified above are **not** intended to be recommended bre
 -   Load the least amount of JavaScript that is needed.
 -   Wherever possible include script files at the end of your HTML document just before the </body> tag.
 
-  
+#### **Responsive Images**
 
-  
+Currently there is little to no native support for responsive images.
 
--   **Responsive Images**
-
-  
-
--   Currently there is little to no native support for responsive images.
-
-  
-
--   **Always** optimize your images using a tool such as Adobe Photoshop to assure you have the ideal image size and right amount of lossy compression.
+**Always** optimize your images using a tool such as Adobe Photoshop to assure you have the ideal image size and right amount of lossy compression.
 
   
 
@@ -444,7 +430,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNTExMTQsMTcyNTgyMDUzNSwtMTY1NT
-kxMjMyNCwtMTA4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMw
-NjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MjU5ODEzNDYsMTcyNTgyMDUzNSwtMT
+Y1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5
+NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
 -->
