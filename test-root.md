@@ -364,35 +364,24 @@ Currently there is little to no native support for responsive images.
 
 **Always** optimize your images using a tool such as Adobe Photoshop to assure you have the ideal image size and right amount of lossy compression.
 
-  
+A good staring point for a serious responsive and progressive image implementation: [https://www.datocms.com/blog/offer-responsive-progressive-lqip-images-in-2020/](https://www.datocms.com/blog/offer-responsive-progressive-lqip-images-in-2020/)
 
--   **Vector Graphics (SVG)**
+#### **Vector Graphics (SVG)**
 
-  
-
--   When working with an audience on unknown screen sizes and resolutions, as is the pretense in web development, having graphics that can scale without degrading is a very appealing prospect.
--     
+When working with an audience on unknown screen sizes and resolutions, as is the pretense in web development, having graphics that can scale without degrading is a very appealing prospect.
     
--   Web fonts
-
+Web fonts
 -   Pros: this option allows for easy control of vector color, size and usage
 -   Cons: all of the vectors single color and must be grouped others in one file.
 
-  
-
--   SVG
-
+SVG
 -   Pros: vectors can be manipulated by CSS and/or JavaScript and allows for complex filters, animations and transitions.
 -   Cons: SVG is only supported by IE9+
 
-  
+#### **Responsive Data Tables**
 
--   **Responsive Data Tables**
+Displaying data tables in a responsive way on Mobile sites is a challenge. There are only so many good ways to address this. Brad Frost provides excellent guidance on  [responsive data tables](https://bradfrost.github.io/this-is-responsive/resources.html#tables).
 
-  
-
--   Displaying data tables in a responsive way on Mobile sites is a challenge. There are only so many good ways to address this. Brad Frost provides excellent guidance on  [responsive data tables](https://bradfrost.github.io/this-is-responsive/resources.html#tables).
--     
     
 
 -   Simply make a wrapper around the table and scroll horizontally.
@@ -430,7 +419,8 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU5ODEzNDYsMTcyNTgyMDUzNSwtMT
-Y1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5
-NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
+eyJoaXN0b3J5IjpbLTExNjMyNTAyOTIsLTE2MjU5ODEzNDYsMT
+cyNTgyMDUzNSwtMTY1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0
+ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MT
+ZdfQ==
 -->
