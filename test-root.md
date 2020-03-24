@@ -59,15 +59,15 @@ A key hallmark of professional code includes a notion that while we are writing 
 -   A well-written HTML document will make appropriate use of these semantic elements and leave all responsibility for controlling the presentation of the document to the CSS style sheet.
 
 ####  **HTML Standards and Browser Support**
--   All markup will be written using the latest HTML5 markup specifications from the W3C, as implemented by browsers and devices that meet project requirements. When creating markup be sure that the target environments support the techniques being implemented, or that there is a fall-back plan.
--   There are three primary ways to ensure a modern and consistent experience across all supported platforms in order of complexity:
+All markup will be written using the latest HTML5 markup specifications from the W3C, as implemented by browsers and devices that meet project requirements. When creating markup be sure that the target environments support the techniques being implemented, or that there is a fall-back plan.
+There are three primary ways to ensure a modern and consistent experience across all supported platforms in order of complexity:
 
 -   [Normalize](https://github.com/necolas/normalize.css) is a collection of element-specific CSS changes in a single file.
 -   [HTML5 polyfill](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) or HTML5 Shiv to enable styling and recognition of HTML5 elements in older devices' browsers.
 -   [Modernizr](https://modernizr.com/docs)  is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in your user's browsers.
 
 ####  **Doctype**
--   Always include a proper doctype to trigger standards mode. Omitting the doctype [triggers quirks mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) and should always be avoided. The HTML5 doctype is simple and easy to remember.
+Always include a proper doctype to trigger standards mode. Omitting the doctype [triggers quirks mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) and should always be avoided. The HTML5 doctype is simple and easy to remember.
 
 ```
 	<!doctype html>
@@ -76,7 +76,7 @@ A key hallmark of professional code includes a notion that while we are writing 
   
 
 #### **Character Encoding**
--   All markup should be delivered as UTF-8, since it has the best support for internationalization. The character encoding should be designated in both the HTTP header and the head of the document via a meta tag. If the server happens to omit the HTTP header, browsers can take a guess at the character encoding and begins parsing and rendering the markup in a particular way. If there are inconsistencies, the browser will re-parse and re-render, throwing away all that work and starting over if it encounters the meta tag and its guess was incorrect. As a best practice, we always put the meta tag as early in the <head> tag as early as possible — however server-settings are ideal.
+All markup should be delivered as UTF-8, since it has the best support for internationalization. The character encoding should be designated in both the HTTP header and the head of the document via a meta tag. If the server happens to omit the HTTP header, browsers can take a guess at the character encoding and begins parsing and rendering the markup in a particular way. If there are inconsistencies, the browser will re-parse and re-render, throwing away all that work and starting over if it encounters the meta tag and its guess was incorrect. As a best practice, we always put the meta tag as early in the <head> tag as early as possible — however server-settings are ideal.
 ```
 	<meta charset="UTF-8">
 ```
@@ -84,8 +84,8 @@ A key hallmark of professional code includes a notion that while we are writing 
   
 
 #### **Optional and Self-closing Tags**
--   While current standards designate certain closing elements and even document level elements as optional, use all open and closing elements nested in the correct ways to ensure maximum compatibility and clarity of document structure.
--   Generally speaking, we encourage closing tags and trailing slashes (i.e. XHTML, XML).
+While current standards designate certain closing elements and even document level elements as optional, use all open and closing elements nested in the correct ways to ensure maximum compatibility and clarity of document structure.
+Generally speaking, we encourage closing tags and trailing slashes (i.e. XHTML, XML).
 ```
 	<!-- closing "/" is encouraged -->
 	<img src="/logo.png" alt="Company" />
@@ -97,12 +97,12 @@ A key hallmark of professional code includes a notion that while we are writing 
 		<li>voluptatum ratione suscipit</li>
 	</ul>
 ```
--   Unusual markup can lead to bugs in page rendering, DOM interpretation, or even how styles are applied, so it should be avoided.
+Unusual markup can lead to bugs in page rendering, DOM interpretation, or even how styles are applied, so it should be avoided.
 
   
 
 #### **Validation**
--   Valid markup is necessary not only for better operation and maintenance, it can be an excellent starting place while debugging a page — especially if the problems are unusual. There are many linters, prettyfier and validators, you can start with [W3C Validator](https://validator.w3.org/).
+Valid markup is necessary not only for better operation and maintenance, it can be an excellent starting place while debugging a page — especially if the problems are unusual. There are many linters, prettyfier and validators, you can start with [W3C Validator](https://validator.w3.org/).
 
   
 
@@ -114,12 +114,10 @@ A key hallmark of professional code includes a notion that while we are writing 
 
 
 # CSS Best Practices
-
   
 
--   **Formatting CSS**
--   Basic rules for formatting CSS files:
-
+#### **Formatting CSS**
+Basic rules for formatting CSS files:
 -   Use a new line for every selector and every declaration.
 -   Use a single space before the opening brace in a set of rules.
 -   Use lowercase for elements and shorthand hex values, e.g., #aaa.
@@ -503,6 +501,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAwNTY3OTUsMTc5NDg3MTA2MCwtOD
-I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
+eyJoaXN0b3J5IjpbMjE0MDgyNzkxLDE3OTQ4NzEwNjAsLTgyNz
+k3MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl19
 -->
