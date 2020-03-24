@@ -70,30 +70,29 @@ A key hallmark of professional code includes a notion that while we are writing 
 -   Always include a proper doctype to trigger standards mode. Omitting the doctype [triggers quirks mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) and should always be avoided. The HTML5 doctype is simple and easy to remember.
 
 ```
-<!doctype html>
+	<!doctype html>
 ```
 
   
 
--   **Character Encoding**
+#### **Character Encoding**
 -   All markup should be delivered as UTF-8, since it has the best support for internationalization. The character encoding should be designated in both the HTTP header and the head of the document via a meta tag. If the server happens to omit the HTTP header, browsers can take a guess at the character encoding and begins parsing and rendering the markup in a particular way. If there are inconsistencies, the browser will re-parse and re-render, throwing away all that work and starting over if it encounters the meta tag and its guess was incorrect. As a best practice, we always put the meta tag as early in the <head> tag as early as possible — however server-settings are ideal.
--   ```
--   <meta charset="UTF-8">
--   ```
+```
+	<meta charset="UTF-8">
+```
 
   
 
--   **Optional and Self-closing Tags**
+#### **Optional and Self-closing Tags**
 -   While current standards designate certain closing elements and even document level elements as optional, use all open and closing elements nested in the correct ways to ensure maximum compatibility and clarity of document structure.
 -   Generally speaking, we encourage closing tags and trailing slashes (i.e. XHTML, XML).
--   ```
--   <!-- closing "/" is encouraged -->
--   <img src="/logo.png" alt="Company" />
--     
-    
--   <!-- include closing tags  -->
--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
--   <ul>
+```
+	<!-- closing "/" is encouraged -->
+	<img src="/logo.png" alt="Company" />
+	
+	<!-- include closing tags  -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
+<ul>
 
 -   <li>Vero sunt veritatis magni sit odit</li>
 -   <li>voluptatum ratione suscipit</li>
@@ -509,6 +508,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg0MDQxNTcsMTc5NDg3MTA2MCwtOD
+eyJoaXN0b3J5IjpbLTIwNjU0Nzg5NjUsMTc5NDg3MTA2MCwtOD
 I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
 -->
