@@ -145,38 +145,30 @@ button#back-button { ... }
 .popular .nav__buttonBack { ... }
 ```
 
--   While performance of CSS selectors has been a debated topic, browsers perform quite well on most types of selectors.
--   As a rule, CSS is most maintainable with the simplest selectors possible. Try applying a class to the element you want to target instead.
+While performance of CSS selectors has been a debated topic, browsers perform quite well on most types of selectors.
+As a rule, CSS is most maintainable with the simplest selectors possible. Try applying a class to the element you want to target instead.
 
-  
+#### **Do Not Use !important**
+Avoid using the !important keyword. Treat it like the nuclear option, only to be used in the most extreme of cases. This fundamentally destroys the specificity feature and can even break accessibility for some users.
+There is usually another way to achieve the same goal without causing headaches for developers in the future who are either trying to debug a styling issue, or trying to use normal specificity to override a style for a particular element only to find that they can't.
 
--   **Do Not Use !important**
--   Avoid using the !important keyword. Treat it like the nuclear option, only to be used in the most extreme of cases. This fundamentally destroys the specificity feature and can even break accessibility for some users.
--   There is usually another way to achieve the same goal without causing headaches for developers in the future who are either trying to debug a styling issue, or trying to use normal specificity to override a style for a particular element only to find that they can't.
+#### **ID Selectors**
+As noted above, use the lowest level of specificity necessary to get the desired results. This means the use of the ID selector should be avoided. Often creating a new class is preferable to using inheritance or additional specificity to target an element or elements.
+ID selectors, if used, should be used mainly as access points for JavaScript or if a very particular use case surfaces. Styles and classes can be applied via the same element with a className.
 
-  
-
--   **ID Selectors**
--   As noted above, use the lowest level of specificity necessary to get the desired results. This means the use of the ID selector should be avoided. Often creating a new class is preferable to using inheritance or additional specificity to target an element or elements.
--   ID selectors, if used, should be used mainly as access points for JavaScript or if a very particular use case surfaces. Styles and classes can be applied via the same element with a className.
-
-  
-
--   **Vendor Prefixes**
+#### **Vendor Prefixes**
 -   When using vendor prefixed features, put the standardized rule at the end to ensure browsers optimize and use the standard if they recognize it.
--   ```
--   .accordion__mainPanel {
--   -webkit-transition: all 100ms;
--   transition: all 100ms;
--   }
--   ```
--   **Inline Styling**
--   Do not hard code style information into your HTML markup directly, either with the style attribute that accepts CSS or with deprecated attributes such as align, border, or width. These are difficult to maintain and make it harder to track down what is causing an element to appear as it does.
--   The exact opposite goes to coding email where most of your styles should be inline and use of styling attributes is very important.
+```
+	.accordion__mainPanel {
+		-webkit-transition: all 100ms;
+		transition: all 100ms;
+	}
+```
+#### **Inline Styling**
+Do not hard code style information into your HTML markup directly, either with the style attribute that accepts CSS or with deprecated attributes such as align, border, or width. These are difficult to maintain and make it harder to track down what is causing an element to appear as it does.
+The exact opposite goes to coding email where most of your styles should be inline and use of styling attributes is very important.
 
-  
-
--   **Box Model**
+#### **Box Model**
 -   To simplify CSS authoring, we set the box-sizing attribute to border-box for all page elements. This enables us to use round numbers for width like 50% and then apply a padding or border to that same element without needing to
 
 1.  adjust the width accordingly using calc (since borders use pixels rather than percents) or
@@ -483,7 +475,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODc0ODk3MiwtMTA4NjA0OTgwOCwxNz
-k0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTgyMTUzNTEsLTEwODYwNDk4MDgsMT
+c5NDg3MTA2MCwtODI3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAy
+NTE2XX0=
 -->
