@@ -364,7 +364,7 @@ Currently there is little to no native support for responsive images.
 
 **Always** optimize your images using a tool such as Adobe Photoshop to assure you have the ideal image size and right amount of lossy compression.
 
-A good staring point for a serious responsive and progressive image implementation: [https://www.datocms.com/blog/offer-responsive-progressive-lqip-images-in-2020/](https://www.datocms.com/blog/offer-responsive-progressive-lqip-images-in-2020/)
+[Here is a good staring point](https://www.datocms.com/blog/offer-responsive-progressive-lqip-images-in-2020/) for a serious responsive and progressive image implementation.
 
 #### **Vector Graphics (SVG)**
 
@@ -382,26 +382,17 @@ SVG
 
 Displaying data tables in a responsive way on Mobile sites is a challenge. There are only so many good ways to address this. Brad Frost provides excellent guidance on  [responsive data tables](https://bradfrost.github.io/this-is-responsive/resources.html#tables).
 
-    
-
 -   Simply make a wrapper around the table and scroll horizontally.
 -   Have CSS rules which collapse the tables.
 -   Sometimes JavaScript might be used to hide/show certain less critical columns, however this does add overhead.
 
-  
+# Advanced Topics
 
-  
+- Design Systems primer: [https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969](https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969)
 
--     
-    
+- Deploying to AWS with Docker: [https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/](https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/)
 
-Advanced Topics
-
-Design Systems primer: [https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969](https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969)
-
-Deploying to AWS with Docker: [https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/](https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/)
-
-Prototyping with React: [https://dev.to/pineapplecontent/prototyping-best-practices-using-react-for-front-end-developers-4l55](https://dev.to/pineapplecontent/prototyping-best-practices-using-react-for-front-end-developers-4l55)
+- Prototyping with React: [https://dev.to/pineapplecontent/prototyping-best-practices-using-react-for-front-end-developers-4l55](https://dev.to/pineapplecontent/prototyping-best-practices-using-react-for-front-end-developers-4l55)
 
   
 
@@ -419,8 +410,8 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjMyNTAyOTIsLTE2MjU5ODEzNDYsMT
-cyNTgyMDUzNSwtMTY1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0
-ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MT
-ZdfQ==
+eyJoaXN0b3J5IjpbLTkyMTU0NDE1OCwtMTYyNTk4MTM0NiwxNz
+I1ODIwNTM1LC0xNjU1OTEyMzI0LC0xMDg2MDQ5ODA4LDE3OTQ4
+NzEwNjAsLTgyNzk3MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl
+19
 -->
