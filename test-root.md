@@ -305,22 +305,16 @@ $('body').on('click', 'a.scroller', function(){
 #### **Media Queries and CSS Breakpoints**
 
 Media queries consist of a media type and at least one expression of a media feature (such as height, width and orientation) that describe the conditions under which a set of CSS rules apply.
-    
--   Don’t specify vendor- or device-specific widths. Let the content and the design dictate the breakpoints.
 
-  
+Don’t specify vendor- or device-specific widths. Let the content and the design dictate the breakpoints.
 
--   IE8 and below do not support Media Queries. [Respond.js](https://github.com/scottjehl/Respond) (and similar JavaScript libraries) can be used to enable support for Media Queries in these older browsers (if needed).
+IE8 and below do not support Media Queries. [Respond.js](https://github.com/scottjehl/Respond) (and similar JavaScript libraries) can be used to enable support for Media Queries in these older browsers (if needed).
 
--   You are better off forcing older browsers to experience the site through a desktop experience (optionally tailored specifically for these older browsers).
+You are better off forcing older browsers to experience the site through a desktop experience (optionally tailored specifically for these older browsers).
 
-  
+#### **Mobile First**
 
--   **Mobile First**
-
-  
-
--   The "Mobile First" techniques consider the lowest common denominator first, which is likely to be your mobile devices due to bandwidth limitations, loading times (not just screen size!), and even CPU speed of the devices.
+The "Mobile First" techniques consider the lowest common denominator first, which is likely to be your mobile devices due to bandwidth limitations, loading times (not just screen size!), and even CPU speed of the devices.
 
   
 
@@ -449,7 +443,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDE1MTMwOCwtMTY1NTkxMjMyNCwtMT
+eyJoaXN0b3J5IjpbMTcyNTgyMDUzNSwtMTY1NTkxMjMyNCwtMT
 A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
 ODcwMiw0MjkyMDI1MTZdfQ==
 -->
