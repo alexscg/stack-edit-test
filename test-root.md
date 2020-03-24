@@ -54,29 +54,24 @@ A key hallmark of professional code includes a notion that while we are writing 
 
 # HTML Markup Best Practices
 
-  
-
 -   Semantic Markup
 -   HTML provides a number of semantic constructs that allow automated tools like search engines and screen readers to make sense of the document and to understand relationships between pieces of content. Use semantic markup whenever possible — that is to say use elements with specific meanings for specific purposes to convey the spirit of the markup.
 -   A well-written HTML document will make appropriate use of these semantic elements and leave all responsibility for controlling the presentation of the document to the CSS style sheet.
 
-  
-
--   **HTML Standards and Browser Support**
+####  **HTML Standards and Browser Support**
 -   All markup will be written using the latest HTML5 markup specifications from the W3C, as implemented by browsers and devices that meet project requirements. When creating markup be sure that the target environments support the techniques being implemented, or that there is a fall-back plan.
 -   There are three primary ways to ensure a modern and consistent experience across all supported platforms in order of complexity:
 
 -   [Normalize](https://github.com/necolas/normalize.css) is a collection of element-specific CSS changes in a single file.
 -   [HTML5 polyfill](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills) or HTML5 Shiv to enable styling and recognition of HTML5 elements in older devices' browsers.
 -   [Modernizr](https://modernizr.com/docs)  is a small piece of JavaScript code that automatically detects the availability of next-generation web technologies in your user's browsers.
--     
-    
 
--   **Doctype**
+####  **Doctype**
 -   Always include a proper doctype to trigger standards mode. Omitting the doctype [triggers quirks mode](https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode) and should always be avoided. The HTML5 doctype is simple and easy to remember.
--   ```
--   <!doctype html>
--   ```
+
+```
+<!doctype html>
+```
 
   
 
@@ -514,6 +509,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA5MDQxOTEsMTc5NDg3MTA2MCwtOD
+eyJoaXN0b3J5IjpbLTE2OTg0MDQxNTcsMTc5NDg3MTA2MCwtOD
 I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
 -->
