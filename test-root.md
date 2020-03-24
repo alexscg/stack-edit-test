@@ -335,10 +335,11 @@ The "Mobile First" techniques consider the lowest common denominator first, whic
 			/* just the new stuff here, no need to be repetitive... */
 		}
 	}
--   @media(min-width: 1400px) {
--   .hero {
--   /* might need larger font sizes at largest screen sizes */
--   } }
+	@media(min-width: 1400px) {
+		.hero {
+			/* might need larger font sizes at largest screen sizes */
+		}
+	}
 ```
 Note: the breakpoints specified above are **not** intended to be recommended breakpoints, but rather just illustrative of this general concept.
 
@@ -443,7 +444,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI3MzM2NjYsMTcyNTgyMDUzNSwtMT
-Y1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5
-NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
+eyJoaXN0b3J5IjpbNDAwNTExMTQsMTcyNTgyMDUzNSwtMTY1NT
+kxMjMyNCwtMTA4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMw
+NjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
 -->
