@@ -289,30 +289,22 @@ Always use meaningful variable names that can be read as words, not as abbreviat
 Put settings together in obvious places such as an Object literal space inside your module. Make settings that are possibly to be considered "constants" to be obvious -- some developers like to use ALLCAPS.
 
 #### **Feature Detection**
--   Always test for the existence of a browser API, function, or object property before you use it, and make sure the user experience is still functional (to the extent possible) if it's not found. We rely on JavaScript-based feature detection rather than server-side device detection because it's more robust, easily maintained, and future-proof. The go-to library for feature detection is of course [Modernizr](http://modernizr.com/).
+Always test for the existence of a browser API, function, or object property before you use it, and make sure the user experience is still functional (to the extent possible) if it's not found. We rely on JavaScript-based feature detection rather than server-side device detection because it's more robust, easily maintained, and future-proof. The go-to library for feature detection is of course [Modernizr](http://modernizr.com/).
 
-  
+#### **Limit Events — Use Event Delegation**
+It is always preferable to use fewer events being bound to objects on a page as possible. Too many events bound on a page can mean memory leaks or just an accumulation of handlers bound to DOM elements which becomes less and less efficient over time. Additionally, event delegation has the added benefit of persisting events over dynamic page updates when items are added or removed from the DOM.
+With jQuery this is easy, simply use the on method with a selector:
+```
+$('body').on('click', 'a.scroller', function(){
+	// this only runs if the a.scroller is matched
+});
+```
 
--   **Limit Events — Use Event Delegation**
--   It is always preferable to use fewer events being bound to objects on a page as possible. Too many events bound on a page can mean memory leaks or just an accumulation of handlers bound to DOM elements which becomes less and less efficient over time. Additionally, event delegation has the added benefit of persisting events over dynamic page updates when items are added or removed from the DOM.
--   With jQuery this is easy, simply use the on method with a selector:
--   ```
--   $('body').on('click', 'a.scroller', function(){
--   // this only runs if the a.scroller is matched
--   });
+# Responsive Design Best Practices
 
-  
+#### **Media Queries and CSS Breakpoints**
 
-  
-
-Responsive Design Best Practices
-
--   **Media Queries and CSS Breakpoints**
-
-  
-
--   Media queries consist of a media type and at least one expression of a media feature (such as height, width and orientation) that describe the conditions under which a set of CSS rules apply.
--     
+Media queries consist of a media type and at least one expression of a media feature (such as height, width and orientation) that describe the conditions under which a set of CSS rules apply.
     
 -   Don’t specify vendor- or device-specific widths. Let the content and the design dictate the breakpoints.
 
@@ -457,7 +449,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg1NzU2MTQsLTE2NTU5MTIzMjQsLT
-EwODYwNDk4MDgsMTc5NDg3MTA2MCwtODI3OTczMDY0LDE1NDkw
-Nzg3MDIsNDI5MjAyNTE2XX0=
+eyJoaXN0b3J5IjpbLTUyMDE1MTMwOCwtMTY1NTkxMjMyNCwtMT
+A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
+ODcwMiw0MjkyMDI1MTZdfQ==
 -->
