@@ -185,33 +185,25 @@ To simplify CSS authoring, we set the box-sizing attribute to border-box for all
 #### **Coding Patterns**
 There are a number of popular design patterns for naming conventions on selectors, groupings or extensions of styles in CSS files. Sometimes these are of value and may be used on projects as long as the developers are on board and they are used consistently by the team. We recommend [BEM naming convention](http://getbem.com/) for medium to large projects.
 
-  
+# JavaScript Best Practices
+
+#### **Inclusion of Code**
+Use external JavaScript files. **Do NOT include JavaScript in-line in the page unless there is a good reason**.
+Use the <script> tag to include your JavaScript files at the bottom of your HTML document just before the closing </body> tag. For optimal page performance, concatenate your JavaScript into as few files as possible.
+
+If the code you are including is not necessary at the time of loading the asynchronous method is preferred.
+```
+<script src="https://cdn.mckinsey.com/assets/example/javascript.js" async defer></script>
+```
+In development environments, this may point at a non-optimized file, however having techniques in place to toggle optimized files on and off is often beneficial.
+A reference similar to this may need to include a build-specific file name based upon a hash or something along those lines for HTTP cache purposes.
+Also consider enabling source maps to assist with debugging and testing.
 
   
 
-JavaScript Best Practices
-
-  
-
--   **Inclusion of Code**
--   Use external JavaScript files. **Do NOT include JavaScript in-line in the page unless there is a good reason**.
--   Use the <script> tag to include your JavaScript files at the bottom of your HTML document just before the closing </body> tag. For optimal page performance, concatenate your JavaScript into as few files as possible.
-
-  
-
--   If the code you are including is not necessary at the time of loading the asynchronous method is preferred.
--   ```
--   <script src="https://cdn.mckinsey.com/assets/example/javascript.js" async defer></script>
--   ```
--   In development environments, this may point at a non-optimized file, however having techniques in place to toggle optimized files on and off is often beneficial.
--   A reference similar to this may need to include a build-specific file name based upon a hash or something along those lines for HTTP cache purposes.
--   Also consider enabling source maps to assist with debugging and testing.
-
-  
-
--   **Writing and Formatting JavaScript**
--   The use of whitespace should follow long-standing English writing conventions, with blank lines between ideas and groups of code such as objects, functions, and new lines for new statements.
--   Formatting the language statements and patterns should follow these basics:
+#### **Writing and Formatting JavaScript**
+The use of whitespace should follow long-standing English writing conventions, with blank lines between ideas and groups of code such as objects, functions, and new lines for new statements.
+Formatting the language statements and patterns should follow these basics:
 
 -   **Open braces** are preceded by a single space.
 -   **Open braces** should appear on the same line as their preceding argument.
@@ -473,7 +465,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDE5NTAxNSwtMTY1NTkxMjMyNCwtMT
+eyJoaXN0b3J5IjpbMjAxMDk0NDI1NSwtMTY1NTkxMjMyNCwtMT
 A4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3
 ODcwMiw0MjkyMDI1MTZdfQ==
 -->
