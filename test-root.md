@@ -327,12 +327,14 @@ The "Mobile First" techniques consider the lowest common denominator first, whic
 	.hero {...}
 	@media(min-width: 600px) {
 		.hero {
--   /* just the new stuff here, no need to be repetitive... */
--   } }
--   @media(min-width: 800px) {
--   .hero {
--   /* just the new stuff here, no need to be repetitive... */
--   } }
+			/* just the new stuff here, no need to be repetitive... */
+		} 
+	}
+	@media(min-width: 800px) {
+		.hero {
+			/* just the new stuff here, no need to be repetitive... */
+		}
+	}
 -   @media(min-width: 1400px) {
 -   .hero {
 -   /* might need larger font sizes at largest screen sizes */
@@ -441,7 +443,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDI2NDc2MiwxNzI1ODIwNTM1LC0xNj
-U1OTEyMzI0LC0xMDg2MDQ5ODA4LDE3OTQ4NzEwNjAsLTgyNzk3
-MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl19
+eyJoaXN0b3J5IjpbLTIxMTI3MzM2NjYsMTcyNTgyMDUzNSwtMT
+Y1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0ODcxMDYwLC04Mjc5
+NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
 -->
