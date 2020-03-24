@@ -91,34 +91,29 @@ A key hallmark of professional code includes a notion that while we are writing 
 	<img src="/logo.png" alt="Company" />
 	
 	<!-- include closing tags  -->
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
-<ul>
-
--   <li>Vero sunt veritatis magni sit odit</li>
--   <li>voluptatum ratione suscipit</li>
-
--   </ul>
--   ```
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
+	<ul>
+		<li>Vero sunt veritatis magni sit odit</li>
+		<li>voluptatum ratione suscipit</li>
+	</ul>
+```
 -   Unusual markup can lead to bugs in page rendering, DOM interpretation, or even how styles are applied, so it should be avoided.
 
   
 
--   **Validation**
+#### **Validation**
 -   Valid markup is necessary not only for better operation and maintenance, it can be an excellent starting place while debugging a page — especially if the problems are unusual. There are many linters, prettyfier and validators, you can start with [W3C Validator](https://validator.w3.org/).
 
   
 
--   **Attribute Values**
+#### **Attribute Values**
 -   Use quotes to surround all attribute values in HTML, despite quotes being optional in HTML5. This maintains consistency between attribute values that contain whitespace and those that don't.
--   ```
--   <form class="form_login module" action="/login" method="POST">
--   ```
+```
+	<form class="form_login module" action="/login" method="POST">
+```
 
-  
 
-  
-
-CSS Best Practices
+# CSS Best Practices
 
   
 
@@ -508,6 +503,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU0Nzg5NjUsMTc5NDg3MTA2MCwtOD
+eyJoaXN0b3J5IjpbLTE5NzAwNTY3OTUsMTc5NDg3MTA2MCwtOD
 I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
 -->
