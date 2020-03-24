@@ -1,6 +1,3 @@
-##### Firm FE Guidelines and Best Practices
-
-
 # Introduction
 
 This document contains the guidelines and best practices for the front end web developers here at the Firm. It describes markup, style and Javascript standards that have, for the most part, become the generally accepted way within the larger development community.
@@ -409,8 +406,8 @@ Displaying data tables in a responsive way on Mobile sites is a challenge. There
 
 - AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDEyNzQ5MCwtMTYyNTk4MTM0NiwxNz
-I1ODIwNTM1LC0xNjU1OTEyMzI0LC0xMDg2MDQ5ODA4LDE3OTQ4
-NzEwNjAsLTgyNzk3MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl
-19
+eyJoaXN0b3J5IjpbLTE4MTg4NzcyNTAsLTE2MjU5ODEzNDYsMT
+cyNTgyMDUzNSwtMTY1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0
+ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MT
+ZdfQ==
 -->
