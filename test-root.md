@@ -126,31 +126,25 @@ Inside sets of rules or style declarations:
 -   Use shorthand if you can, like:
 -   padding: 15px 0; and not padding: 15px 0px 15px 0px;
 -   When allowed, use 0 without units.
-
-  
-
 -   Putting each selector on its own line and each property on its own line is great for readability and so version control systems can clearly show which parts have changed in a diff.
 
   
 
--   **Specificity**
--   Use the minimum specificity required to achieve the desired style. It can be difficult to quickly read and locate styles or even bugs with heavily nested styles in the CSS.
--   Avoid using IDs as they have very high specificity, able to target only one specific element and are hard to override which breaks the cascading nature of a style sheet.
+#### **Specificity**
+Use the minimum specificity required to achieve the desired style. It can be difficult to quickly read and locate styles or even bugs with heavily nested styles in the CSS.
+Avoid using IDs as they have very high specificity, able to target only one specific element and are hard to override which breaks the cascading nature of a style sheet.
+```
+/* BAD */
+button#back-button { ... }
+.popular ul li a { ... }
+.popular > ul > li > a { ... }
 
-  
+/* GOOD */
+.popular .nav__listItem { ... }
+.popular .nav__listItem--open { ... }
+.popular .nav__buttonBack { ... }
+```
 
--   ```
--   /* BAD */
--   button#back-button { ... }
--   .popular ul li a { ... }
--   .popular > ul > li > a { ... }
--     
-    
--   /* GOOD */
--   .popular .nav__listItem { ... }
--   .popular .nav__listItem--open { ... }
--   .popular .nav__buttonBack { ... }
--   ```
 -   While performance of CSS selectors has been a debated topic, browsers perform quite well on most types of selectors.
 -   As a rule, CSS is most maintainable with the simplest selectors possible. Try applying a class to the element you want to target instead.
 
@@ -489,6 +483,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYwNDk4MDgsMTc5NDg3MTA2MCwtOD
-I3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAyNTE2XX0=
+eyJoaXN0b3J5IjpbMjA0ODc0ODk3MiwtMTA4NjA0OTgwOCwxNz
+k0ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1
+MTZdfQ==
 -->
