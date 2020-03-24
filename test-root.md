@@ -1,20 +1,10 @@
-
-
-Introduction
+# Introduction
 
 This document contains the guidelines and best practices for the front end web developers here at the Firm. It describes markup, style and Javascript standards that have, for the most part, become the generally accepted way within the larger development community.
 
-  
-
 What this document is **not** is a guide on how front end technologies work; a basic familiarity is assumed. It also does not provide evaluations of the pros and cons of various alternatives; when appropriate we pick what we consider to be the best solutions and present them. Issues that don't yet have a clear solution are considered flexible and may or may not be listed.
 
-  
-
-  
-
-Goals
-
-  
+### Goals
 
 Our motivations in creating this document are to:
 
@@ -24,8 +14,6 @@ Our motivations in creating this document are to:
 -   Write code that supports re-use.
 -   Work concurrently with multiple devs on the same codebase at the same time in the same way.
 -   Guide staff on-boarding or educate new developers.
-
-  
 
 This document is not intended to replace common sense, conventions requested by particular clients, teams, or prevent expressive or creative solutions to problems. Team or project-specific agreements or client requests will always supersede this document's content.
 
@@ -532,6 +520,6 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTAwNDI0MCwxNzk0ODcxMDYwLC04Mj
-c5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MTZdfQ==
+eyJoaXN0b3J5IjpbNTMyMzI2ODE4LDE3OTQ4NzEwNjAsLTgyNz
+k3MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl19
 -->
