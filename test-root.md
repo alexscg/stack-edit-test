@@ -169,7 +169,7 @@ Do not hard code style information into your HTML markup directly, either with t
 The exact opposite goes to coding email where most of your styles should be inline and use of styling attributes is very important.
 
 #### **Box Model**
--   To simplify CSS authoring, we set the box-sizing attribute to border-box for all page elements. This enables us to use round numbers for width like 50% and then apply a padding or border to that same element without needing to
+To simplify CSS authoring, we set the box-sizing attribute to border-box for all page elements. This enables us to use round numbers for width like 50% and then apply a padding or border to that same element without needing to
 
 1.  adjust the width accordingly using calc (since borders use pixels rather than percents) or
 2.  create an element inside it to take the padding and border. This is the only case where we use the inefficient universal selector (*).
@@ -475,7 +475,7 @@ CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demy
 
 AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgyMTUzNTEsLTEwODYwNDk4MDgsMT
+eyJoaXN0b3J5IjpbLTE2NTU5MTIzMjQsLTEwODYwNDk4MDgsMT
 c5NDg3MTA2MCwtODI3OTczMDY0LDE1NDkwNzg3MDIsNDI5MjAy
 NTE2XX0=
 -->
