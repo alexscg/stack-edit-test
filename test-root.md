@@ -394,24 +394,20 @@ Displaying data tables in a responsive way on Mobile sites is a challenge. There
 
 - Prototyping with React: [https://dev.to/pineapplecontent/prototyping-best-practices-using-react-for-front-end-developers-4l55](https://dev.to/pineapplecontent/prototyping-best-practices-using-react-for-front-end-developers-4l55)
 
-  
+# More Resources
 
-  
+- Github best practices: [https://dev.to/datreeio/top-10-github-best-practices-3kl2](https://dev.to/datreeio/top-10-github-best-practices-3kl2)
 
-More Resources
+- NPM best practices: [https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja](https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja)
 
-Github best practices: [https://dev.to/datreeio/top-10-github-best-practices-3kl2](https://dev.to/datreeio/top-10-github-best-practices-3kl2)
+- React best practices: [http://www.jancarloviray.com/blog/react-best-practices-2020/](http://www.jancarloviray.com/blog/react-best-practices-2020/)
 
-NPM best practices: [https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja](https://www.codementor.io/@mattgoldspink/nodejs-best-practices-du1086jja)
+- CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demystifying-the-complexities.html](https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demystifying-the-complexities.html)
 
-React best practices: [http://www.jancarloviray.com/blog/react-best-practices-2020/](http://www.jancarloviray.com/blog/react-best-practices-2020/)
-
-CI/CD best practices: [https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demystifying-the-complexities.html](https://www.javacodegeeks.com/2020/03/ci-cd-pipeline-demystifying-the-complexities.html)
-
-AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
+- AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTU0NDE1OCwtMTYyNTk4MTM0NiwxNz
-I1ODIwNTM1LC0xNjU1OTEyMzI0LC0xMDg2MDQ5ODA4LDE3OTQ4
-NzEwNjAsLTgyNzk3MzA2NCwxNTQ5MDc4NzAyLDQyOTIwMjUxNl
-19
+eyJoaXN0b3J5IjpbLTE4MTg4NzcyNTAsLTE2MjU5ODEzNDYsMT
+cyNTgyMDUzNSwtMTY1NTkxMjMyNCwtMTA4NjA0OTgwOCwxNzk0
+ODcxMDYwLC04Mjc5NzMwNjQsMTU0OTA3ODcwMiw0MjkyMDI1MT
+ZdfQ==
 -->
