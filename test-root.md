@@ -1,5 +1,7 @@
 ---
-placewhereIlive: 
+placewhereIlive: '/design/foundations/colors'
+other: var
+---
 
 
 # Introduction Bart^2!!!!
@@ -410,6 +412,5 @@ Displaying data tables in a responsive way on Mobile sites is a challenge. There
 
 - AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk5MzE3MzksLTEwNTAxMTEwODVdfQ
-==
+eyJoaXN0b3J5IjpbLTkyOTU2MjU1MCwtMTA1MDExMTA4NV19
 -->
