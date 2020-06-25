@@ -1,3 +1,7 @@
+---
+placewhereIlive: 
+
+
 # Introduction Bart^2!!!!
 
 This document contains the guidelines and best practices for the front end web developers here at the Firm. It describes markup, style and Javascript standards that have, for the most part, become the generally accepted way within the larger development community.
@@ -406,5 +410,6 @@ Displaying data tables in a responsive way on Mobile sites is a challenge. There
 
 - AWS best practices: [https://www.parkmycloud.com/blog/aws-best-practices/](https://www.parkmycloud.com/blog/aws-best-practices/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAxMTEwODVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDk5MzE3MzksLTEwNTAxMTEwODVdfQ
+==
 -->
