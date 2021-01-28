@@ -6,17 +6,15 @@
   </a>
 </p>
 
-
+#### Getting Started
+If you are just getting started with MDS React
 #### Installation
 
-Configure Firm's on-prem jFrog artifactory to install the MDS React library.
+Configure Firm's on-prem jFrog artifactory to install MDS React library.
 ```sh
 npm config set @mds:registry https://artifacts.intranet.mckinsey.com/artifactory/api/npm/mds-npm/
 ```
-
-<br />
-
-Now, let's install the MDS React library.
+Install the MDS React library.
 ```javascript
 npm install --save @mds/mds-reactjs-library
 ```
@@ -96,6 +94,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYyMzAyNzYsLTE0NTUxMDA1OTQsMT
-QxNjY4NjMzMSwtMTA1MDExMTA4NV19
+eyJoaXN0b3J5IjpbMTQzMjY4OTY1NCwtMTQ1NTEwMDU5NCwxND
+E2Njg2MzMxLC0xMDUwMTExMDg1XX0=
 -->
