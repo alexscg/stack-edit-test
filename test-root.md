@@ -1,7 +1,9 @@
 <p align="center">
   <a href="https://mds.mckinsey.com/develop/react/get-started">
+    <img alt="McKinsey Design System" src="https://ddls-cdn.s3.amazonaws.com/assets/images/portal/HomeImg1.jpg" width="100%" />
+  </a>
+  <a href="https://mds.mckinsey.com/develop/react/get-started">
   <h1 align="center">MDS React Library</h1>
-    <img alt="McKinsey Design System" src="https://mds.mckinsey.com/static/2abb09a8c4a4ffa1f70c46b97a283607/746ad/fb4a5eca47efd32d47e8de4012a17c9b.jpg" width="100%" />
   </a>
 </p>
 
@@ -95,5 +97,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
+eyJoaXN0b3J5IjpbLTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMT
+A1MDExMTA4NV19
 -->
