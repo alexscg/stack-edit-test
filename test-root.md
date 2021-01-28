@@ -5,12 +5,12 @@
   <a href="https://mds.mckinsey.com/develop/react/get-started">
   </a>
 </p>
+Welcome to McKinsey Design System React library of components.  This library is part of a larger design system and shoul 
 
 #### Getting Started
-If you are just getting started with MDS React Library please visit our getting started page.  It has all the information you need to get up to speed quickly and start code.
+If you are just getting started with MDS React Library please visit our getting started page.  It has all the information you need to get up to speed quickly and start coding.
 
 #### Installation
-
 Configure Firm's on-prem jFrog artifactory to install MDS React library.
 ```sh
 npm config set @mds:registry https://artifacts.intranet.mckinsey.com/artifactory/api/npm/mds-npm/
@@ -95,6 +95,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIzODIzNjAsMTI5NTQ2MDg4LC0xND
-U1MTAwNTk0LDE0MTY2ODYzMzEsLTEwNTAxMTEwODVdfQ==
+eyJoaXN0b3J5IjpbODI3MjE1NjU1LDEyOTU0NjA4OCwtMTQ1NT
+EwMDU5NCwxNDE2Njg2MzMxLC0xMDUwMTExMDg1XX0=
 -->
