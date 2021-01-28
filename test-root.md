@@ -5,7 +5,7 @@
   <a href="https://mds.mckinsey.com/develop/react/get-started">
   </a>
 </p>
-Welcome to McKinsey Design System React library of components.  This library is part of a larger design system and shoul 
+Welcome to McKinsey Design System (MDS) React library of components.  This library is part of a larger design system and was built with that in mind.  Its purpose is to provide a React implementation of MDS 
 
 #### Getting Started
 If you are just getting started with MDS React Library please visit our getting started page.  It has all the information you need to get up to speed quickly and start coding.
@@ -95,6 +95,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3MjE1NjU1LDEyOTU0NjA4OCwtMTQ1NT
-EwMDU5NCwxNDE2Njg2MzMxLC0xMDUwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbMTE1MDY2NTgzNywxMjk1NDYwODgsLTE0NT
+UxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
 -->
