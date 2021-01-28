@@ -1,12 +1,10 @@
 <p align="center">
-  <a href="https://www.carbondesignsystem.com">
-    <img alt="Carbon Design System" src="https://user-images.githubusercontent.com/3901764/57545698-ce5f2380-7320-11e9-8682-903df232d7b0.png" width="100%" />
+  <a href="https://mds.mckinsey.com/develop/react/get-started">
+    <img alt="McKinsey Design System" src="https://user-images.githubusercontent.com/3901764/57545698-ce5f2380-7320-11e9-8682-903df232d7b0.png" width="100%" />
   </a>
 </p>
-<h1 align="center">MDS React Library
-</h1>
 <h1 style="text-align:center;">
-  <a href="https://mds.mckinsey.com/develop/react/get-started" target="_blank"></a>
+  <a href="https://mds.mckinsey.com/develop/react/get-started" target="_blank"><h1 align="center">MDS React Library</a>
 </h1>
 
 #### Installation
@@ -98,5 +96,5 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjM3NzM4NywtMTA1MDExMTA4NV19
+eyJoaXN0b3J5IjpbODU0MzM4MTk0LC0xMDUwMTExMDg1XX0=
 -->
