@@ -7,7 +7,7 @@
 </p>
 
 #### Getting Started
-If you are just getting started with MDS React Library please visit our getting started page here.  It has all the information to quickly get you up to speed and start writing code.
+If you are just getting started with MDS React Library please visit our getting started page.  It has all the information you need to get up to speed quickly and start code.
 
 #### Installation
 
@@ -95,6 +95,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTQ2MDg4LC0xNDU1MTAwNTk0LDE0MT
-Y2ODYzMzEsLTEwNTAxMTEwODVdfQ==
+eyJoaXN0b3J5IjpbLTE5NTIzODIzNjAsMTI5NTQ2MDg4LC0xND
+U1MTAwNTk0LDE0MTY2ODYzMzEsLTEwNTAxMTEwODVdfQ==
 -->
