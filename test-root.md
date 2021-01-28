@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://mds.mckinsey.com/develop/react/get-started">
-    <img alt="McKinsey Design System" src="https://user-images.githubusercontent.com/3901764/57545698-ce5f2380-7320-11e9-8682-903df232d7b0.png" width="100%" />
+    <img alt="McKinsey Design System" src="https://qa.mds.mckinsey.com/static/2abb09a8c4a4ffa1f70c46b97a283607/746ad/fb4a5eca47efd32d47e8de4012a17c9b.jpg" width="100%" />
   </a>
 </p>
-<h1 style="text-align:center;">
+<h1 style="text-align:center;" style="position: relative; mar: -100px;">
   <a href="https://mds.mckinsey.com/develop/react/get-started" target="_blank"><h1 align="center">MDS React Library</a>
 </h1>
 
@@ -96,5 +96,5 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0MzM4MTk0LC0xMDUwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbLTY0NjcwMzM0MiwtMTA1MDExMTA4NV19
 -->
