@@ -7,7 +7,7 @@
 </p>
 
 #### Getting Started
-If you are just getting started with MDS React
+If you are just getting started with MDS React Library please visit our getting started page here.  It has all the information to quickly get you up to speed and start using 
 #### Installation
 
 Configure Firm's on-prem jFrog artifactory to install MDS React library.
@@ -94,6 +94,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjY4OTY1NCwtMTQ1NTEwMDU5NCwxND
+eyJoaXN0b3J5IjpbLTExMTI4NDA2NSwtMTQ1NTEwMDU5NCwxND
 E2Njg2MzMxLC0xMDUwMTExMDg1XX0=
 -->
