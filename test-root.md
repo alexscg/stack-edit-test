@@ -3,14 +3,13 @@
     <img alt="McKinsey Design System" src="https://ddls-cdn.s3.amazonaws.com/assets/images/git/HomeImgGit.png" width="100%" />
   </a>
   <a href="https://mds.mckinsey.com/develop/react/get-started">
-
   </a>
 </p>
 
 
 #### Installation
 
-First, we'll need to connect to our on-prem jFrog artifactory to install the MDS React library.
+Configure Firm's on-prem jFrog artifactory to install the MDS React library.
 ```sh
 npm config set @mds:registry https://artifacts.intranet.mckinsey.com/artifactory/api/npm/mds-npm/
 ```
@@ -97,6 +96,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY0NzE4OTMsLTE0NTUxMDA1OTQsMT
+eyJoaXN0b3J5IjpbLTIwNzYyMzAyNzYsLTE0NTUxMDA1OTQsMT
 QxNjY4NjMzMSwtMTA1MDExMTA4NV19
 -->
