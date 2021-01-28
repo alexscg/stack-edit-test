@@ -3,7 +3,7 @@
     <img alt="McKinsey Design System" src="https://ddls-cdn.s3.amazonaws.com/assets/images/git/HomeImgGit.png" width="100%" />
   </a>
   <a href="https://mds.mckinsey.com/develop/react/get-started">
-  <h1 align="center">MDS React Library</h1>
+
   </a>
 </p>
 
@@ -97,6 +97,6 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzg3MDYyMywtMTQ1NTEwMDU5NCwxND
-E2Njg2MzMxLC0xMDUwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbLTE2MDY0NzE4OTMsLTE0NTUxMDA1OTQsMT
+QxNjY4NjMzMSwtMTA1MDExMTA4NV19
 -->
