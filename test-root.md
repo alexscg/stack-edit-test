@@ -31,13 +31,7 @@ import { Button } from '@mds/mds-reactjs-library';
 
 #### Alternative installation methods
 
-<br />
-
-Did the installation steps listed above not suit your project's needs? Don't worry we have other means to install our library. 
-
-<br />
-
-Please refer to one of the following tutorials which contain step-by-step instructions based on your use case.
+Did the installation steps listed above not work in your project? Don't worry we have other means to install!  Please refer to one of the following tutorials which contain step-by-step instructions based on your use case.
 
 - [NPM installation](https://mds.mckinsey.com/develop/react/tutorial/npm)
 - [create-react-app](https://mds.mckinsey.com/develop/react/tutorial/create-react-app)
@@ -94,8 +88,7 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU5MjM2MTYsNjY2MDE5Njc4LC04OD
-Y1ODQ3MDQsLTM4NDczOTQyMSw4NTUxNDgzOTIsMTI5NTQ2MDg4
-LC0xNDU1MTAwNTk0LDE0MTY2ODYzMzEsLTEwNTAxMTEwODVdfQ
-==
+eyJoaXN0b3J5IjpbMTQxODIxNDEwNCw2NjYwMTk2NzgsLTg4Nj
+U4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5MiwxMjk1NDYwODgs
+LTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
 -->
