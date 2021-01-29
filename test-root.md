@@ -27,7 +27,16 @@ Now that MDS React library is a dependency you can import MDS components in your
 
 ```jsx
 import { Button } from '@mds/mds-reactjs-library';
+
+function Demo() {
+  return (
+   <Button>Primary Button</Button>
+  );
+}
+
+export default Demo;
 ```
+
 
 #### Alternative installation methods
 
@@ -49,8 +58,8 @@ This software is confidential and for Firm internal use only.<br/>
 Any use or disclosure of this software without specific permission of McKinsey & Company is strictly prohibited.<br/>
 All rights reserved.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTkxNzg2MCwtNzUxODg4MDY3LDY2Nj
-AxOTY3OCwtODg2NTg0NzA0LC0zODQ3Mzk0MjEsODU1MTQ4Mzky
-LDEyOTU0NjA4OCwtMTQ1NTEwMDU5NCwxNDE2Njg2MzMxLC0xMD
-UwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbLTEwOTY3NjMxODIsMTQ4OTkxNzg2MCwtNz
+UxODg4MDY3LDY2NjAxOTY3OCwtODg2NTg0NzA0LC0zODQ3Mzk0
+MjEsODU1MTQ4MzkyLDEyOTU0NjA4OCwtMTQ1NTEwMDU5NCwxND
+E2Njg2MzMxLC0xMDUwMTExMDg1XX0=
 -->
