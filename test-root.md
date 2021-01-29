@@ -5,7 +5,7 @@
   <a href="https://mds.mckinsey.com/develop/react/get-started">
   </a>
 </p>
-Welcome to McKinsey Design System (MDS) React library of components.  This library is part of a larger design system and was built with that in mind.  Its purpose is to provide a React implementation of MDS based on the Firm's visual identity guidelines.  As such, it is geared towards implementing designs that are created using MDS Sketch library and user is encouraged to use it for solutions encompassing that scope.  It is also a living and evolving system that is built in an extensible and backwards-compatible manner; your contributions are greatly encouraged!
+Welcome to McKinsey Design System (MDS) React library of components.  This library is part of a larger design system and was built with that in mind.  Its purpose is to provide a React implementation of MDS based on the Firm's visual identity guidelines.  As such, it is geared towards implementing designs that are created using MDS Sketch library and user is encouraged to use it for solutions that fit this profile.  It is also a living and evolving system that is built in an extensible and backwards-compatible manner; your contributions are greatly encouraged!  
 
 #### Getting Started
 If you are just getting started with MDS React Library please visit our getting started page.  It has all the information you need to get up to speed quickly and start coding.
@@ -93,7 +93,7 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1MzE5NzUxLC0zODQ3Mzk0MjEsODU1MT
-Q4MzkyLDEyOTU0NjA4OCwtMTQ1NTEwMDU5NCwxNDE2Njg2MzMx
-LC0xMDUwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbMjExNDIzNzk3OCwtMzg0NzM5NDIxLDg1NT
+E0ODM5MiwxMjk1NDYwODgsLTE0NTUxMDA1OTQsMTQxNjY4NjMz
+MSwtMTA1MDExMTA4NV19
 -->
