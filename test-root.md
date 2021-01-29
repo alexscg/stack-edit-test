@@ -38,9 +38,9 @@ Did the installation steps listed above not work in your project? Don't worry we
 
 #### Our Roadmap
 
-  As we start to ramp up, be on the lookout for our email newsletter about  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for questions about integration, contribution and anything else at [#mds-tech](https://mck-td.slack.com/archives/CN7ALAXNZ) or [#mds-community](https://mck-td.slack.com/archives/CLWC6P8H0).
-  Here
-  is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for the near future.
+As we start to ramp up, be on the lookout for our email newsletter about  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for questions about integration, contribution and anything else at [#mds-tech](https://mck-td.slack.com/archives/CN7ALAXNZ) or [#mds-community](https://mck-td.slack.com/archives/CLWC6P8H0).
+
+Here is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for the near future.
 
 
 
@@ -82,7 +82,8 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMTg2Njc3LDY2NjAxOTY3OCwtODg2NT
-g0NzA0LC0zODQ3Mzk0MjEsODU1MTQ4MzkyLDEyOTU0NjA4OCwt
-MTQ1NTEwMDU5NCwxNDE2Njg2MzMxLC0xMDUwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbLTEyMDY3NTA0MzEsNjY2MDE5Njc4LC04OD
+Y1ODQ3MDQsLTM4NDczOTQyMSw4NTUxNDgzOTIsMTI5NTQ2MDg4
+LC0xNDU1MTAwNTk0LDE0MTY2ODYzMzEsLTEwNTAxMTEwODVdfQ
+==
 -->
