@@ -45,32 +45,11 @@ Here is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roa
 #### License
  
 ##### CONFIDENTIAL AND PROPRIETARY
- This software is confidential and for Firm internal use only.<br/>
- Any use or disclosure of this software without specific permission of McKinsey & Company is strictly prohibited.<br/>
- All rights reserved.
-
-
-<!--
-# Multi-repository for mds-reactjs-library
- 
-##Lerna 
-https://github.com/lerna/lerna
-https://lerna.js.org/
-
-##Step By Step
-1. run ```npm i``` in mds-reactjs-library 
-2. run ```npm run bootstrap``` (command will install npm packages into modules in "modules" folder and will create links in node_modules)
-
-## Publish
-We are publishing following packages:
-- mds-docs - @mds/mds-reactjs-library-docs
-- mds-library - @mds/mds-reactjs-library
-
-To publish packages you should run ```lerna publish```.
-
---->
+This software is confidential and for Firm internal use only.<br/>
+Any use or disclosure of this software without specific permission of McKinsey & Company is strictly prohibited.<br/>
+All rights reserved.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYwNjkxNywtNzUxODg4MDY3LDY2Nj
+eyJoaXN0b3J5IjpbMTQ4OTkxNzg2MCwtNzUxODg4MDY3LDY2Nj
 AxOTY3OCwtODg2NTg0NzA0LC0zODQ3Mzk0MjEsODU1MTQ4Mzky
 LDEyOTU0NjA4OCwtMTQ1NTEwMDU5NCwxNDE2Njg2MzMxLC0xMD
 UwMTExMDg1XX0=
