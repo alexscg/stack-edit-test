@@ -37,9 +37,9 @@ Did the installation steps listed above not work in your project? Don't worry we
 - [create-react-app](https://mds.mckinsey.com/develop/react/tutorial/create-react-app)
 
 #### Get in touch with us
-As we start to ramp up, be on the lookout for our email newsletter about  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for questions about integration, contribution and anything else at [#mds-tech](https://mck-td.slack.com/archives/CN7ALAXNZ) or [#mds-community](https://mck-td.slack.com/archives/CLWC6P8H0).
+As we start to ramp up, be on the lookout for our email newsletter about  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for questions about integration, [contribution](https://mds.mckinsey.com/develop/contribution) and anything else at [#mds-tech](https://mck-td.slack.com/archives/CN7ALAXNZ) or [#mds-community](https://mck-td.slack.com/archives/CLWC6P8H0).
 
-Here is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for the near future.
+Here is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for the near future and .
 
 
 
@@ -81,7 +81,8 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTg4ODA2Nyw2NjYwMTk2NzgsLTg4Nj
-U4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5MiwxMjk1NDYwODgs
-LTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
+eyJoaXN0b3J5IjpbLTIwOTAwMDY0MDcsLTc1MTg4ODA2Nyw2Nj
+YwMTk2NzgsLTg4NjU4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5
+MiwxMjk1NDYwODgsLTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMT
+A1MDExMTA4NV19
 -->
