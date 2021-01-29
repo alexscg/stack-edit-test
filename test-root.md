@@ -39,12 +39,7 @@ Did the installation steps listed above not work in your project? Don't worry we
 #### Our Roadmap
 
   As we start to ramp up, be on the lookout for our email newsletter about
-  latest developments, releases and goings-on. We will also make announcements
-  on our Slack channels where you can ask questions, help others and provide
-  your expertise. As the Portal comes more fully online it will be the first
-  place to go look for resources for your project. In the beginning you might
-  not always find exactly what you are looking for. We encourage you to reach
-  out to our team so as to evaluate whether to extend current resource to fit
+  latest developments, releases and goings-on. We will also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  As the Portal comes more fully online it will be the first place to go to for resources for your project.  hWe encourage you to reach out to our team so as to evaluate whether to extend current resource to fit
   your needs or to contribute a new one so the next time it will be found. Here
   is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for this year.
 
@@ -88,7 +83,7 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODIxNDEwNCw2NjYwMTk2NzgsLTg4Nj
+eyJoaXN0b3J5IjpbMTYzMTA0MjMwNSw2NjYwMTk2NzgsLTg4Nj
 U4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5MiwxMjk1NDYwODgs
 LTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
 -->
