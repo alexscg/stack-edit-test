@@ -39,24 +39,13 @@ Did the installation steps listed above not work in your project? Don't worry we
 #### Get in touch with us
 As we start to ramp up, be on the lookout for our email newsletter about  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for questions about integration, [contribution](https://mds.mckinsey.com/develop/contribution) and anything else at [#mds-tech](https://mck-td.slack.com/archives/CN7ALAXNZ) or [#mds-community](https://mck-td.slack.com/archives/CLWC6P8H0).
 
-Here is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for the near future and .
+Here is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for the near future and a [changelog](https://mds.mckinsey.com/develop/react/changelog) of the close past.
 
-
-
-#### Contribution
-
-- You can reach out to us via our slack channel <PortalLink target="_blank" href="https://mck-td.slack.com/archives/CN7ALAXNZ">#mds-tech</PortalLink>.
-- You can also email us if you have any questions [MDS](mailto:mds@mckinsey.com?subject=[MDS]%20React%20Contribution%20Inquiry)
-- How to [contribute](https://mds.mckinsey.com/develop/contribution)
-
-#### Changelog
-
-Checkout our [changelog](https://mds.mckinsey.com/develop/react/changelog) to know what`s changed.
 
 #### License
  
-##### CONFIDENTIAL AND PROPRIETARY.<h4>
- This software is confidential and for internal use only.<br/>
+##### CONFIDENTIAL AND PROPRIETARY
+ This software is confidential and for Firm internal use only.<br/>
  Any use or disclosure of this software without specific permission of McKinsey & Company is strictly prohibited.<br/>
  All rights reserved.
 
@@ -81,8 +70,8 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAwMDY0MDcsLTc1MTg4ODA2Nyw2Nj
-YwMTk2NzgsLTg4NjU4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5
-MiwxMjk1NDYwODgsLTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMT
-A1MDExMTA4NV19
+eyJoaXN0b3J5IjpbLTE0MDYwNjkxNywtNzUxODg4MDY3LDY2Nj
+AxOTY3OCwtODg2NTg0NzA0LC0zODQ3Mzk0MjEsODU1MTQ4Mzky
+LDEyOTU0NjA4OCwtMTQ1NTEwMDU5NCwxNDE2Njg2MzMxLC0xMD
+UwMTExMDg1XX0=
 -->
