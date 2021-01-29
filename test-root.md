@@ -39,7 +39,7 @@ Did the installation steps listed above not work in your project? Don't worry we
 #### Our Roadmap
 
   As we start to ramp up, be on the lookout for our email newsletter about
-  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We will also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for 
+  latest developments, releases and goings-on.  Our portal is the best place to get information fast.  We will also make announcements on our Slack channels where you can ask questions, help others and provide your expertise.  We encourage you to reach out to our team for questions of integration, contribution 
   Here
   is our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap) for this year.
 
@@ -83,7 +83,7 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDA1NTkxNiw2NjYwMTk2NzgsLTg4Nj
-U4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5MiwxMjk1NDYwODgs
-LTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
+eyJoaXN0b3J5IjpbMTg5NTY1NjIyLDY2NjAxOTY3OCwtODg2NT
+g0NzA0LC0zODQ3Mzk0MjEsODU1MTQ4MzkyLDEyOTU0NjA4OCwt
+MTQ1NTEwMDU5NCwxNDE2Njg2MzMxLC0xMDUwMTExMDg1XX0=
 -->
