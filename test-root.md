@@ -5,7 +5,7 @@
   <a href="https://mds.mckinsey.com/develop/react/get-started">
   </a>
 </p>
-Welcome to McKinsey Design System (MDS) React library of components.  This library is part of a larger design system and was built with that in mind.  Its purpose is to provide a React implementation of MDS based on the Firm's visual identity guidelines.  As such, it is geared towards implementing designs that are created using [MDS Core Library](https://mds.mckinsey.com/design/get-started) and user is encouraged to use it for solutions that fit this profile.  It is also a living and evolving system that is built in an extensible and backwards-compatible manner; your contributions are greatly encouraged!  You can see the evolution of the project on our [changelog](https://mds.mckinsey.com/develop/react/changelog) and peek into the future on our [GitHub](http://github.com)[roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap).
+Welcome to McKinsey Design System (MDS) React library of components.  This library is part of a larger design system and was built with that in mind.  Its purpose is to provide a React implementation of MDS based on the Firm's visual identity guidelines.  As such, it is geared towards implementing designs that are created using [MDS Core Library](https://mds.mckinsey.com/design/get-started) and user is encouraged to use it for solutions that fit this profile.  It is also a living and evolving system that is built in an extensible and backwards-compatible manner; your contributions are greatly encouraged!  You can see the evolution of the project on our [changelog](https://mds.mckinsey.com/develop/react/changelog) and peek into the future on our [roadmap](https://mds.mckinsey.com/develop/react/get-started#our-roadmap).
 
 
 http://github.com - automatic!
@@ -99,7 +99,7 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTMxNjc1MCwtODg2NTg0NzA0LC0zOD
-Q3Mzk0MjEsODU1MTQ4MzkyLDEyOTU0NjA4OCwtMTQ1NTEwMDU5
-NCwxNDE2Njg2MzMxLC0xMDUwMTExMDg1XX0=
+eyJoaXN0b3J5IjpbNjY2MDE5Njc4LC04ODY1ODQ3MDQsLTM4ND
+czOTQyMSw4NTUxNDgzOTIsMTI5NTQ2MDg4LC0xNDU1MTAwNTk0
+LDE0MTY2ODYzMzEsLTEwNTAxMTEwODVdfQ==
 -->
