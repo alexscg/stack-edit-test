@@ -23,7 +23,7 @@ npm install --save @mds/mds-reactjs-library
 
 #### Importing components
 
-You've successfully installed the MDS React library. You may now import MDS components in your React code.
+Now that MDS React library is a dependency you can import MDS components in your React code.
 
 ```jsx
 import { Button } from '@mds/mds-reactjs-library';
@@ -94,7 +94,8 @@ To publish packages you should run ```lerna publish```.
 
 --->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDcyMzM5Myw2NjYwMTk2NzgsLTg4Nj
-U4NDcwNCwtMzg0NzM5NDIxLDg1NTE0ODM5MiwxMjk1NDYwODgs
-LTE0NTUxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
+eyJoaXN0b3J5IjpbLTEzMTU5MjM2MTYsNjY2MDE5Njc4LC04OD
+Y1ODQ3MDQsLTM4NDczOTQyMSw4NTUxNDgzOTIsMTI5NTQ2MDg4
+LC0xNDU1MTAwNTk0LDE0MTY2ODYzMzEsLTEwNTAxMTEwODVdfQ
+==
 -->
