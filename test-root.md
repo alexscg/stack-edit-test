@@ -36,7 +36,7 @@ function Demo() {
 
 export default Demo;
 ```
-> NOTE: You should use ThemeProvider component as shown in [examples](https://mds.mckinsey.com/develop/react/components/button) on MDS Portal.  More information on theming can be found [here](https://mds.mckinsey.com/develop/react/components/theming/themecontext).
+> NOTE: For styling you should use ThemeProvider component as shown in [examples](https://mds.mckinsey.com/develop/react/components/button) on MDS Portal.  More information on theming and styling can be found [here](https://mds.mckinsey.com/develop/react/tutorial/styling).
 
 #### Alternative installation methods
 
@@ -58,8 +58,8 @@ This software is confidential and for Firm internal use only.<br/>
 Any use or disclosure of this software without specific permission of McKinsey & Company is strictly prohibited.<br/>
 All rights reserved.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzQ4MjgxOCwxNDg5OTE3ODYwLC03NT
-E4ODgwNjcsNjY2MDE5Njc4LC04ODY1ODQ3MDQsLTM4NDczOTQy
-MSw4NTUxNDgzOTIsMTI5NTQ2MDg4LC0xNDU1MTAwNTk0LDE0MT
-Y2ODYzMzEsLTEwNTAxMTEwODVdfQ==
+eyJoaXN0b3J5IjpbMTUzOTEwMDg1MSwxODAzNDgyODE4LDE0OD
+k5MTc4NjAsLTc1MTg4ODA2Nyw2NjYwMTk2NzgsLTg4NjU4NDcw
+NCwtMzg0NzM5NDIxLDg1NTE0ODM5MiwxMjk1NDYwODgsLTE0NT
+UxMDA1OTQsMTQxNjY4NjMzMSwtMTA1MDExMTA4NV19
 -->
